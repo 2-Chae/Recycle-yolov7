@@ -20,6 +20,7 @@
 *.data
 *.json
 *.cfg
+*.sh
 !setup.cfg
 !cfg/yolov3*.cfg
 
@@ -34,8 +35,9 @@ data/images/*
 !data/images/zidane.jpg
 !data/images/bus.jpg
 !data/*.sh
-
+recycle_yolov7/*
 results*.csv
+.history/
 
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
@@ -144,6 +146,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # pyenv
 .python-version
